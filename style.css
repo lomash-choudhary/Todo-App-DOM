@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(27, 27, 27);
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size:50px
+}
+
+.all-todo-div{
+  margin: 0 auto;
+  width:50%;
+  padding-top:50px;
+  padding-left:370px;
+}
+
+.add-todo-button{
+  font-family:roboto,arial;
+  font-size:12px;
+  font-weight: 700;
+  color:black;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top:15px;
+  padding-bottom:15px;
+  border-radius:5px;
+  border:none;
+  margin-left:10px;
+}
+
+#inp{
+  font-family: roboto,arial;
+  font-size:12px;
+  font-weight: 400;
+  background-color: white;
+  padding-top:14px;
+  padding-bottom:15px;
+  padding-left:20px;
+  padding-right: 40px;
+  border:none;
+  border-radius:5px;  
+} 
+
+.append-div{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+h4{
+  margin-left: 15px;
+  color: white;
+  width: 100px; 
+  word-wrap: break-word; 
+  white-space: normal;
+}
+
+.new-added-todo-button{
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-left:120px;
+  background-color: white;
+  color:black;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}
